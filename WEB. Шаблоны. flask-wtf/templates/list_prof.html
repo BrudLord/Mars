@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Список профессий</h2>
+    <{{ vid }}>
+        {% for pr in profs %}
+            <li>{{ pr }}</li>
+        {% endfor %}
+    </{{ vid }}>
+{% endblock %}
