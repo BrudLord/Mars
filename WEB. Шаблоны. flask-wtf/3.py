@@ -25,7 +25,10 @@ def list_prof(list):
         'profs': profs,
         'vid': list,
     }
-    return render_template('list_prof.html', **params)
+    if list in ['ul', 'ol']:
+        return render_template('list_prof.html', **params)
+    else:
+        return render_template('error.html', title='Марсианские профессии')
 
 
 if __name__ == '__main__':
