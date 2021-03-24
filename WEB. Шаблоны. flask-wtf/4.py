@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/auto_answer')
 def auto_answer():
     params = {
-        'title': 'Mars',
+        'title': 'Анкета',
         'surname': 'Watny',
         'name': 'Mark',
         'education': 'выше среднего',
