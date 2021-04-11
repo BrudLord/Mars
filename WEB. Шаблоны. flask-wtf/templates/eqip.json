@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Al",
+    "surname": "Kapone",
+    "im": "static/img/it.jpg",
+    "jobs": [
+      "Swimmer",
+      "Producer",
+      "Rober"
+    ]
+  },
+  {
+    "name": "De",
+    "surname": "Grass",
+    "im": "static/img/ns.jpg",
+    "jobs": [
+      "Driver",
+      "Killer",
+      "Builder"
+    ]
+  },
+  {
+    "name": "N",
+    "surname": "C",
+    "im": "static/img/old.jpg",
+    "jobs": [
+      "Teller",
+      "Magic",
+      "King"
+    ]
+  },
+  {
+    "name": "Te",
+    "surname": "Ylor",
+    "im": "static/img/young.jpg",
+    "jobs": [
+      "Trader",
+      "Sleeper",
+      "Chef"
+    ]
+  }
+]
